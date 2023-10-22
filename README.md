@@ -5,7 +5,7 @@ At Instant-angelo_vis, we have created a space where you can easily access and e
 
 We value your contribution and are open to accepting more visualization examples and encountering bad cases to improve our repository!
 
-
+Sometimes loading gif on this page is slow, you could either clone the repo to local for visualization or visit our [Chinese mirror](https://wa1b7tlo9g.feishu.cn/docx/AEwFdtyaFo0s7yxSZkScu6d6nQh)
 # Samples
 ## BlendedMVS Lowres(768 x 576)
 The experiments were conducted on low-resolution data provided by [BlendedMVS](https://github.com/YoYo000/BlendedMVS), with a resolution of 768 x 576. ** Each model was trained on an RTX3090 GPU for 20,000 steps, which took approximately 20-25 minutes (excluding the time required for sfm and mvs prior generation)**. However, several results at this stage were unsatisfactory, and it is possible that using high-resolution images and training for a longer duration may address this issue. Due to limited GPU resources, we only tested the "Large" and "Sculpture" scenes from the BlendedMVS dataset. It is important to note that not all cases were evaluated. We intend to provide the preprocessed data in the future for parameter tuning and further evaluation.
