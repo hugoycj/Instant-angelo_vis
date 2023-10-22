@@ -115,7 +115,7 @@ Contributions are highly encouraged and will greatly contribute to the collabora
 Below are some suggestions for contributions that can be easily undertaken:
 
 * If you possess a distinctive dataset that you believe would significantly enrich our project, we sincerely welcome your contribution. We are particularly interested in exceptional datasets that can proficiently showcase the capabilities or demonstrate the applicability of our project. Our aim is to present the highest quality data to our users.
-* 
+
 * We would be delighted to receive captivating visualization outcomes that align with our project's objectives. If you possess visually striking results that you believe would be suitable, we encourage you to share them with us. Such contributions hold great potential in enhancing the overall quality and user experience of the project.
 
 * Reconstructed Mesh Visualization: We wholeheartedly encourage contributors to explore techniques and libraries that can effectively render and visualize reconstructed meshes. These visualizations can greatly enhance the presentation and understanding of the output.
