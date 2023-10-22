@@ -109,6 +109,22 @@ To be comming soon
 ## Custom Data
 To be comming soon
 
-# Know Issue
+# Contributions
+Contributions are highly encouraged and will greatly contribute to the collaborative nature of this project.
 
-# How to contribute
+Below are some suggestions for contributions that can be easily undertaken:
+
+* If you possess a distinctive dataset that you believe would significantly enrich our project, we sincerely welcome your contribution. We are particularly interested in exceptional datasets that can proficiently showcase the capabilities or demonstrate the applicability of our project. Our aim is to present the highest quality data to our users.
+* 
+* We would be delighted to receive captivating visualization outcomes that align with our project's objectives. If you possess visually striking results that you believe would be suitable, we encourage you to share them with us. Such contributions hold great potential in enhancing the overall quality and user experience of the project.
+
+* Reconstructed Mesh Visualization: We wholeheartedly encourage contributors to explore techniques and libraries that can effectively render and visualize reconstructed meshes. These visualizations can greatly enhance the presentation and understanding of the output.
+
+## Contribution Guidelines
+To ensure the effectiveness and consistency of our project, we have established the following guidelines:
+
+### Key Principles for Dataset Contributions:
+* Visualization of Results: Contributions should include visually appealing and informative visualizations of the results, such as reconstructed meshes or novel view synthesis outputs, that clearly demonstrate the advantages or disadvantages of the results.
+* Configuration Details: Please provide any configuration files required for the model, including detailed information on the parameters and settings used.
+* Environmental and Hardware Specifications:  It would be helpful if contributors mention the specific versions of PyTorch and CUDA, along with the GPU model, required to run the code effectively.
+* Links to Preprocessed Dataset: It would be highly appreciated if contributors provide links to access or download the preprocessed dataset, enabling easier reproduction of the results.
