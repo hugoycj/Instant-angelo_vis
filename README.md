@@ -8,11 +8,7 @@ We value your contribution and are open to accepting more visualization examples
 
 # Samples
 ## BlendedMVS Lowres(768 x 576)
-The experiments is conducted on low_res data provided by [BlendedMVS](https://github.com/YoYo000/BlendedMVS), which resolution is 768 x 576. Each scenes contain 50~300 images. We train each model on RTX3090 for 20k steps, which consume around 20~25 mins (without considering the sfm and mvs prior generated time). Some results is unsatisfying in this stage, which maybe solved by using highres image and training for longer time. Besides, eue to the limitation of GPU resources, we haven't tested all cases in BlendedMVS but only the `Large` and `Sculpture` scenes. We will provide the preprocessed data later for parameter tuning and evaluation
-
-The experiments were conducted on low-resolution data provided by [BlendedMVS](https://github.com/YoYo000/BlendedMVS), with a resolution of 768 x 576. Each model was trained on an RTX3090 GPU for 20,000 steps, which took approximately 20-25 minutes (excluding the time required for sfm and mvs prior generation). However, several results at this stage were unsatisfactory, and it is possible that using high-resolution images and training for a longer duration may address this issue.
-
-Due to limited GPU resources, we only tested the "Large" and "Sculpture" scenes from the BlendedMVS dataset. It is important to note that not all cases were evaluated. We intend to provide the preprocessed data in the future for parameter tuning and further evaluation.
+The experiments were conducted on low-resolution data provided by [BlendedMVS](https://github.com/YoYo000/BlendedMVS), with a resolution of 768 x 576. Each model was trained on an RTX3090 GPU for 20,000 steps, which took approximately 20-25 minutes (excluding the time required for sfm and mvs prior generation). However, several results at this stage were unsatisfactory, and it is possible that using high-resolution images and training for a longer duration may address this issue. Due to limited GPU resources, we only tested the "Large" and "Sculpture" scenes from the BlendedMVS dataset. It is important to note that not all cases were evaluated. We intend to provide the preprocessed data in the future for parameter tuning and further evaluation.
 
 
 Currently, we compared among three method: neus-colmap, neuralangelo-colmap_sparse, and neuralangelo-colmap_dense:
