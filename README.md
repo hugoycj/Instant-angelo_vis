@@ -118,7 +118,7 @@ Below are some suggestions for contributions that can be easily undertaken:
 
 * We would be delighted to receive captivating visualization outcomes that align with our project's objectives. If you possess visually striking results that you believe would be suitable, we encourage you to share them with us. Such contributions hold great potential in enhancing the overall quality and user experience of the project.
 
-* Reconstructed Mesh Visualization: We wholeheartedly encourage contributors to explore techniques and libraries that can effectively render and visualize reconstructed meshes. These visualizations can greatly enhance the presentation and understanding of the output.
+* We kindly encourage contributors to provide visualization results using traditional multi-view stereo (MVS) libraries such as [Colmap](https://github.com/colmap/colmap) and [OpenMVS](https://github.com/cdcseacave/openMVS), as well as neRF-based MVS repositories like [SDFStudio](https://github.com/autonomousvision/sdfstudio) and  official [Neuralangelo](https://github.com/NVlabs/neuralangelo). It would be highly appreciated if the contributors could also provide the preprocessed Colmap format data at a later stage for a fair and comprehensive comparison.
 
 ## Contribution Guidelines
 To ensure the effectiveness and consistency of our project, we have established the following guidelines:
