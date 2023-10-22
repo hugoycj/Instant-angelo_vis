@@ -5,7 +5,6 @@ At Instant-angelo_vis, we have created a space where you can easily access and e
 
 We value your contribution and are open to accepting more visualization examples and encountering bad cases to improve our repository!
 
-Sometimes loading gif on this page is slow, you could either clone the repo to local for visualization or visit our [Chinese mirror](https://wa1b7tlo9g.feishu.cn/docx/AEwFdtyaFo0s7yxSZkScu6d6nQh)
 # Samples
 ## BlendedMVS Lowres(768 x 576)
 The experiments were conducted on low-resolution data provided by [BlendedMVS](https://github.com/YoYo000/BlendedMVS), with a resolution of 768 x 576. ** Each model was trained on an RTX3090 GPU for 20,000 steps, which took approximately 20-25 minutes (excluding the time required for sfm and mvs prior generation)**. However, several results at this stage were unsatisfactory, and it is possible that using high-resolution images and training for a longer duration may address this issue. Due to limited GPU resources, we only tested the "Large" and "Sculpture" scenes from the BlendedMVS dataset. It is important to note that not all cases were evaluated. We intend to provide the preprocessed data in the future for parameter tuning and further evaluation.
@@ -21,7 +20,7 @@ Currently, we compared among three method: neus-colmap, neuralangelo-colmap_spar
 
     **We have found that generating a high-fidelity surface reconstruction in 20k steps can be challenging**. Therefore, we introduce the dense MVSNet point cloud for acceleration. Vis-MVSNet takes approximately 1 to 3 seconds for each frame and is more effective than Colmap MVS, although it introduces some noise in the process. The noise introduced by the dense MVSNet point cloud can be alleviated as training progresses. This is achieved by decreasing the dense point regulation in the later stages of training.
 
-Below is a visual comparison showcasing the different methods. Please note that the quantity results will be provided in the future. For more visualization results, refer for [more cases](BlendedMVS_lowres/README.md)
+Below is a visual comparison showcasing the different methods. Please note that the quantity results will be provided in the future. For more visualization results, refer for [more cases](BlendedMVS_lowres/README.md). Sometimes loading gif on this page is slow, you could either clone the repo to local for visualization or visit our [Chinese mirror](https://wa1b7tlo9g.feishu.cn/docx/AEwFdtyaFo0s7yxSZkScu6d6nQh)
 
 ### 5b08286b2775267d5b0634ba
 | Method | Novel View Synthesis |
